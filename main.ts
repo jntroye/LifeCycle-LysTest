@@ -1,3 +1,5 @@
+let Strip_1: neopixel.Strip = null
+let StepLength = 0
 input.onButtonPressed(Button.A, function () {
     basic.showLeds(`
         . . . . .
@@ -50,11 +52,6 @@ input.onButtonPressed(Button.B, function () {
     Strip_1.clear()
     basic.clearScreen()
 })
-let StepLength = 0
-let Strip_1: neopixel.Strip = null
-Strip_1 = neopixel.create(DigitalPin.P5, 5, NeoPixelMode.RGB)
-StepLength = 50
-Strip_1.clear()
 basic.forever(function () {
 	
 })

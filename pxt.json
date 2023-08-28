@@ -1,11 +1,12 @@
 {
-    "name": "Cycle – Shooting Lights",
+    "name": "LifeCycle-LysTest",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "neopixel": "github:microsoft/pxt-neopixel#v0.7.5"
+        "neopixel": "github:microsoft/pxt-neopixel#v0.7.5",
+        "Cycle – Shooting Lights": "github:jntroye/lifecycle-lystest#a903f090662a70153a3a4180e586ebd33da9e891"
     },
     "files": [
         "main.blocks",
