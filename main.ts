@@ -52,6 +52,13 @@ input.onButtonPressed(Button.B, function () {
 })
 let Strip_12: neopixel.Strip = null
 let myStepLength = 0
+basic.showLeds(`
+    . . # . .
+    . . # . .
+    . . # . .
+    . . # . .
+    . . . . .
+    `)
 myStepLength = 0
 // let Strip_1: neopixel.Strip = null
 Strip_12 = neopixel.create(DigitalPin.P5, 5, NeoPixelMode.RGB)
